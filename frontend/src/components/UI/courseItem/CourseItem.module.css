@@ -1,0 +1,40 @@
+.linkStyle{
+    width: calc(100% / 3.2);
+}
+.courseName{
+    margin: 0 10px 40px 0;
+    position: relative;
+    height: 180px;
+    padding: 10px;
+    color: #232323;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.bigText {
+    padding: 5px;
+    font-size: 28px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.smallText {
+    padding: 5px;
+    font-size: 22px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+@media screen and (max-width: 1080px) {
+    /* для экранов шириной меньше 992px */
+    .linkStyle {
+        width: calc(100% / 2.2); /* ограничить ширину блоков до 50% */
+    }
+}
+
+@media screen and (max-width: 900px) {
+    /* для экранов шириной меньше 768px */
+    .linkStyle {
+        width: 100%; /* блоки будут занимать всю ширину родительского контейнера */
+    }
+}

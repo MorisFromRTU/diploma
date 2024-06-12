@@ -1,0 +1,99 @@
+.leftContainer{
+    flex: 10%;
+
+}
+
+.rightContainer{
+    flex: 60%;
+    color: #ffbf00;
+    padding: 30px 20px;
+
+}
+.infoContainer{
+    display: flex;
+}
+.logo{
+    width: 150px;
+    margin: 30px 30px 0 30px ;
+}
+.skills{
+    margin-bottom: 20px;
+}
+.skillsItem{
+    margin: 3px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.skillsItem:hover{
+    color: #ffbf00;
+}
+.name{
+    padding-left: 40px;
+}
+
+.leftContainerMain{
+    display: flex;
+}
+.leftContainerSection{
+    color: white;
+    padding: 30px 40px;
+
+}
+
+.messageButton{
+    /*width: 150px;*/
+    margin: 0 40px 0 40px;
+}
+
+.courses{
+    display: flex;
+    flex-wrap: wrap; /* разрешить перенос элементов на новую строку */
+
+}
+.bigText {
+    padding: 5px;
+    font-size: 28px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.smallText {
+    padding: 5px;
+    font-size: 22px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.edu{
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+    padding-left: 40px;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 1800px){
+    .leftContainer{
+        flex: 20%;
+    }
+}
+@media screen and (max-width: 1450px){
+    .leftContainer{
+        flex: 30%;
+    }
+}
+@media screen and (max-width: 1080px) {
+    /* для экранов шириной меньше 992px */
+    .courseName {
+        flex-basis: calc(100% / 2.2); /* ограничить ширину блоков до 50% */
+    }
+}
+
+@media screen and (max-width: 900px) {
+    /* для экранов шириной меньше 768px */
+    .courseName {
+        flex-basis: 100%; /* блоки будут занимать всю ширину родительского контейнера */
+    }
+}

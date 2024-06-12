@@ -1,0 +1,32 @@
+.head{
+    text-align: center;
+    font-size: 32px;
+}
+.headText{
+    color: #ffbf00;
+    margin-top: 10px;
+}
+.mainBlock{
+}
+.mainBlockText{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.textBLock{
+    flex: 20%;
+    margin: auto 0 auto 10px;
+}
+
+.coursesBlock2{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px){
+    .coursesBlock2{
+        width: 90%;
+    }
+}

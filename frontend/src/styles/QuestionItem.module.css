@@ -1,0 +1,26 @@
+.question{
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+.questionItem{
+    color: white;
+    margin-bottom: 10px;
+}
+.questionBtn{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.questionInfo{
+    display: flex;
+}
+.questionTitle{
+    cursor: pointer;
+}
+.questionAuthor{
+    margin-left: 20px;
+    cursor: pointer;;
+}

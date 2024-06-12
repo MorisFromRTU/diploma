@@ -1,0 +1,37 @@
+.main{
+    margin: 0 auto;
+    width: 70%;
+}
+.head{
+    color: #ffbf00;
+    padding-top: 50px;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.mainLeft{
+    display: flex;
+}
+.describe{
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+}
+.describe_block{
+    flex: 75%;
+}
+.spaceBlock{
+    flex: 25%;
+}
+.infoBlock{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1400px){
+
+    .main{
+        width: 90%;
+    }
+}

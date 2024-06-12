@@ -1,0 +1,15 @@
+.myInp{
+    font-weight: bold;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    border-radius: 0.25rem;
+
+}
+
+.myInp:focus {
+    color: #232323;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}

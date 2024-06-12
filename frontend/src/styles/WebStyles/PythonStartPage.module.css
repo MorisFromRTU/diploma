@@ -1,0 +1,142 @@
+.main{
+    border-top: 1px solid #232323;
+    display: flex;
+    flex-direction: row;
+}
+.themeList{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+.theme{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    flex: 1%;
+}
+.firstTheme{
+    color: #FFBF00;
+}
+.themeName{
+    color: #232323;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em 10px;
+    font-weight: 700;
+    width: 100%;
+}
+.contentBlock{
+    width: 80%;
+}
+.info{
+    width: 100%;
+    position: relative;
+}
+.infoBlock{
+    width: 80%;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 15px;
+    font-size: 24px;
+}
+.infoText{
+    margin-bottom: 50px;
+}
+.subThemeName{
+    cursor: pointer;
+    color: #232323;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em 30px;
+    font-weight: 500;
+    width: 100%;
+}
+.subThemeName:hover{
+    background-color: #d0cece;
+}
+.themeName:hover{
+    background-color: #d0cece;
+}
+.themeListHeader{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #232323;
+}
+.themeListHeaderText{
+    color: #232323;
+    margin: 9px 0;
+    font-weight: bold;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .paginationItem{
+    padding: 8px 12px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    transition: all .50s ease;
+    border-radius: 3px;
+  }
+  .paginationItem:hover {
+    background: #FFBF00;
+  }
+  .paginationItemActive {
+    padding: 8px 12px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #FFBF00;
+    border: 1px solid white;
+    transition: all .50s ease;
+    border-radius: 3px;
+    background: #232323;
+  }
+  .theoryBlock{
+    width: 100%;
+    position: relative;
+  }
+  
+  .syntaxBlock{
+    width: 80%;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 15px;
+    font-size: 20px;
+  }
+  .codeBlock{
+    border-radius: 5px;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #232323;
+    color:#FFBF00;
+  }
+  
+@media screen and (max-width: 1800px){
+    .infoBlock{
+        width: 80%;
+        border-radius: 5px;
+        background-color: white;
+        margin: 0 auto;
+        margin-top: 10px;
+        padding: 15px;
+        font-size: 20px;
+    }
+    .infoText{
+        margin-bottom: 20px;
+    }
+}

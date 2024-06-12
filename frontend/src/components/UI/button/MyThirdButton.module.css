@@ -1,0 +1,31 @@
+.myBtn{
+    font-size: 16px;
+    border: 1px solid #232323;
+    padding: 9px 20px;
+    min-width: 100%;
+    background-color: #FFBF00;
+    color: #232323;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 300ms linear;
+    text-align: center;
+}
+
+.myBtn:hover{
+    background-color: #232323;
+    color: #FFBF00;
+    border: 1px solid #FFBF00;
+}
+
+.myDisBtn{
+    font-size: 16px;
+    border: 1px solid white;
+    padding: 9px 20px;
+    min-width: 100%;
+    background-color: #232323;
+    color: white;
+    border-radius: 5px;
+    cursor: default;
+    transition: all 300ms linear;
+    text-align: center;
+}

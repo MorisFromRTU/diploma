@@ -1,0 +1,74 @@
+
+  .communityPageContent{
+    border-radius: 5px;
+    width: 60%;
+    margin: 0 auto;
+    background-color:white;
+    height: 100vh;
+  }
+  .communityImage{
+    height: 120px;
+    width: 240px;
+  }
+  .header {
+    text-align: center;
+    margin: 40px 0;
+    color: #232323;
+  }
+  
+  .description {
+    margin: 20px;
+    color: #232323;
+  }
+  
+  .wall {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  
+  .post {
+    margin-bottom: 10px;
+  }
+  
+  .members {
+    margin: 20px;
+  }
+  
+
+.postForm {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .textarea {
+    outline: none;
+    resize: none;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Добавляем border-radius */
+  }
+  .btnContainer1 {
+    margin: 20px;
+    display: flex;
+    justify-content: left;
+  }
+  
+  .btnContainer {
+    margin: 20px 0;
+    display: flex;
+    justify-content: left;
+  }
+  .postContainer {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .author{
+    font-size: 16px;
+  }
+
+ 

@@ -1,0 +1,29 @@
+
+.communityItem {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid black;
+  }
+  
+  .title{
+    cursor: pointer;
+  }
+  
+  .tag{
+    color: #232323;
+    cursor: pointer;
+  }
+  .tag:hover{
+    color: #ffbf00;
+  }
+  .description {
+    margin-bottom: 10px;
+  }
+  
+
+  .btnContainer {
+    margin: auto 0;
+  }
+  

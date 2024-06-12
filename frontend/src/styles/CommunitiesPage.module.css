@@ -1,0 +1,21 @@
+.customLink{
+    font-size: 40px;
+}
+
+.mainBlock{
+    margin-top: 20px;
+    display: flex;
+}
+.leftBlock{
+    flex: 20%;
+}
+.rightBlock{
+    flex: 20%;
+}
+.searchBlock{
+    flex: 60%;
+}
+.listBlock{
+    background-color: white;
+    border-radius: 5px;
+}

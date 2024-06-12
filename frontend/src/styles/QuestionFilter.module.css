@@ -1,0 +1,25 @@
+.downSide{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.myBtn{
+    font-size: 16px;
+    border: 1px solid #232323;
+    padding: 9px 20px;
+    min-width: 115px;
+    background-color: #FFBF00;
+    color: #232323;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 300ms linear;
+}
+.myBtn2{
+    display: none;
+}
+.myBtn:hover{
+    background-color: #232323;
+    color: #FFBF00;
+    border: 1px solid #FFBF00;
+}

@@ -1,0 +1,17 @@
+.customLink{
+    font-size: 40px;
+}
+
+.main{
+    margin-top: 20px;
+    display: flex;
+}
+.leftBlock{
+    flex: 20%;
+}
+.rightBlock{
+    flex: 20%;
+}
+.searchBlock{
+    flex: 60%;
+}
